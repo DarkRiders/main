@@ -1,5 +1,16 @@
-body { background-color:#80ffd4;
+body {
+  background-color: #80ffd4;
 
  }
-button { background-color:#41ED3B;
+button {
+  transition-duration: 0.5s;
+  background-color: #4CAF50;
+  border: none;
+  padding: 15px 32px;
+  color: white;
+  border-radius: 2px;
+ }
+ button:hover {
+   background-color: white;
+   color: black;
  }
