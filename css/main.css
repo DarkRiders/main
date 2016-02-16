@@ -15,6 +15,7 @@ body {
 #resetbutton {
   background-color: #F24141;
 }
+
 #button1 {
   float: left;
 }
@@ -28,4 +29,28 @@ body {
  }
 #label-name {
 	padding: 10px;
+}
+
+--dropdown--
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #B2DEED;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#dropdown {
+  background-color: Red;
 }
