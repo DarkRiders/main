@@ -3,11 +3,14 @@ function getElement() {
   output = document.getElementById('input');
 
 }
-
-//localStorage.name('test');
-function clickHandler() {
-  alert(output.value);
+function restart() {
+  delete localStorage.money;
+  alert(localStorage.money);
 }
-function reset() {
 
+function clickHandler() {
+  localStorage.money;
+  money = localStorage.getItem('money')
+  localStorage.setItem('money', money+output)
+  alert(money);
 }

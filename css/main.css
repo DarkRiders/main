@@ -12,7 +12,7 @@ body {
   border-radius: 2px;
   display: inline-block;
  }
-#reset {
+#resetbutton {
   background-color: #F24141;
 }
 #button1 {
@@ -22,7 +22,7 @@ body {
    background-color: black;
    color: white;
  }
-#reset:hover {
+#resetbutton:hover {
    background-color: black;
    color: white;
  }
