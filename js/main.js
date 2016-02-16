@@ -9,8 +9,14 @@ function restart() {
 }
 
 function clickHandler() {
-  localStorage.money;
+  //localStorage.money;
   money = localStorage.getItem('money')
-  localStorage.setItem('money', money+output)
+  //localStorage.setItem('money', 1)
+  localStorage.money = Number(localStorage.money)+1;
   alert(money);
+  if (localStorage.money) {
+    localStorage.money = Number(localStorage.money)+1;
+  } else {
+    localStorage.money = 1;
+  }
 }
