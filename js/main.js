@@ -6,16 +6,12 @@ function getElement() {
 }
 function restart() {
   delete localStorage.money;
-  alert(localStorage.money);
 }
 
 function clickHandler() {
-  //localStorage.money;
   money = localStorage.getItem('money')
-  //localStorage.setItem('money', 1)
-
   if (localStorage.money) {
-            localStorage.money = Number(localStorage.money)+1;
+            localStorage.money = Number(localStorage.money) + Number(output.value);
         } else {
             localStorage.money = 1;
         }
