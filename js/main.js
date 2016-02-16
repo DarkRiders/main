@@ -1,7 +1,13 @@
-localStorage.name('test');
+window.onload = getElement;
+function getElement() {
+  output = document.getElementById('input');
+
+}
+
+//localStorage.name('test');
 function clickHandler() {
-  alert('Leo ist schwul');
+  alert(output.value);
 }
 function reset() {
-  
+
 }

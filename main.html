@@ -16,25 +16,22 @@
     </div>
     <div id="content">
 		  <h1>Content</h1>
-		  <form class="NAME">
-			<form class="Label">
 		    <div id="label-name">
-			     <form class="Label">
+			     <form class="label">
 			        <p>
-			          <label>NAME</label>
-			          <input class="Label" type="text">
+			          <label>Geldanzahl</label>
+			          <input type="text" id="input">
 			        </p>
+              <section>
+                <div>
+                  <button id="button1" onclick="clickHandler();this.form.submit()" class='button'>Click me</button>
+                </div>
+      			    <div>
+      				    <button id="reset" onclick="reset()" class='button'>!!!Reset!!!</button>
+      			    </div>
+              </section
            </form>
 		    </div>
-        <section>
-          <div>
-				    <button id="button1" onclick="clickHandler()" class='button'>Click me</button>
-			    </div>
-			    <div>
-				    <button id="reset" onclick="reset()" class='button'>!!!Reset!!!</button>
-			    </div>
-        </section
-      </form>
     </div>
   </body>
 </html>
