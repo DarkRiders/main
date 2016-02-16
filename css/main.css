@@ -1,10 +1,8 @@
 body {
   background-color: #C4C4C4 ;
  }
- #Reset-Button {
-   color: red;
- }
-button {
+ 
+ #Button_1 {
   transition-duration: 0.5s;
   background-color: #4CAF50;
   border: none;
@@ -12,7 +10,20 @@ button {
   color: white;
   border-radius: 2px;
  }
-button:hover {
+ 
+  {
+  transition-duration: 0.5s;
+  background-color: #F24141;
+  border: none;
+  padding: 15px 32px;
+  color: white;
+  border-radius: 2px; 
+ }
+ #Button_1:hover {
+   background-color: black;
+   color: white;
+ }
+ #Reset_Button:hover {
    background-color: black;
    color: white;
  }
