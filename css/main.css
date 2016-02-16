@@ -1,7 +1,9 @@
 body {
   background-color: #C4C4C4 ;
  }
+
 .button {
+
   transition-duration: 0.5s;
   background-color: #4CAF50;
   border: none;
