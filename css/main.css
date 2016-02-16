@@ -2,31 +2,29 @@ body {
   background-color: #C4C4C4 ;
  }
 
- #Button_1 {
+.button {
   transition-duration: 0.5s;
   background-color: #4CAF50;
   border: none;
   padding: 15px 32px;
   color: white;
   border-radius: 2px;
+  display: inline-block;
  }
-
-  {
-  transition-duration: 0.5s;
+#reset {
   background-color: #F24141;
-  border: none;
-  padding: 15px 32px;
-  color: white;
-  border-radius: 2px;
- }
- #Button_1:hover {
+}
+#button1 {
+  float: left;
+}
+#button1:hover {
    background-color: black;
    color: white;
  }
- #Reset_Button:hover {
+#reset:hover {
    background-color: black;
    color: white;
  }
- #Label-Name {
-	Padding: 10px;
+#label-name {
+	padding: 10px;
 }
