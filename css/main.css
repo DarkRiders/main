@@ -1,10 +1,10 @@
 body {
   background-color: #C4C4C4 ;
  }
- p {
+ #Reset-Button {
    color: red;
  }
-.button {
+button {
   transition-duration: 0.5s;
   background-color: #4CAF50;
   border: none;
@@ -12,7 +12,7 @@ body {
   color: white;
   border-radius: 2px;
  }
-.button:hover {
+button:hover {
    background-color: black;
    color: white;
  }
