@@ -10,13 +10,13 @@ function restart() {
 if (localStorage.money==undefined) {
   goal = prompt('Goal?');
   setTimeout(function(){this.reload();}, 5000);
+  localStorage.setItem('money', goal);
 }
 function clickHandler() {
-  money = localStorage.getItem('money')
-  localStorage.setItem('money', goal);
+  money = localStorage.getItem('money')  
   if (localStorage.money) {
             localStorage.money = Number(localStorage.money) - Number(output.value);
         } else {
-            localStorage.money = Number(goal);
+            localStorage.money = Number(1);
         }
 }
